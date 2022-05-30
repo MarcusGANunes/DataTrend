@@ -1,0 +1,47 @@
+:root {
+    --light-color: #F8F9FA;
+    --secondary-color: #426cb4;
+    --light-blue: #328CC1;
+    --dark-gray: #575757;
+    --light-gray: #b2b2b2;
+    --lighter-gray: #d1d1d1;
+    --gray-background: #CDCDCD;
+}
+
+body {
+    background: var(--gray-background);
+}
+
+.BlockchainPage {
+    text-align: center;
+}
+
+.flavour-text {
+    margin-left: 5rem;
+    text-align: start;
+}
+
+.flavour-text h1 {
+    margin: 1rem 0;
+    color: var(--light-blue)
+}
+
+.btn {
+    background-color: #328CC1;
+    margin: 0rem;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    margin: 1rem;
+    background: var(--light-blue);
+    height: 80%;
+    text-align: center;
+    font-size: large;
+    vertical-align: middle;
+    box-shadow: 0 1px 1px 0 rgba(10, 16, 34, .2) !important;
+    color: var(--light-color)
+}
+
+.btn:hover {
+    background: #426cb4;
+}

@@ -1,0 +1,67 @@
+:root {
+    --light-color: #F8F9FA;
+    --secondary-color: #426cb4;
+    --dark-gray: #575757;
+    --light-gray: #d1d1d1;
+}
+
+.Blockchain p {
+    font-size: 0.8rem;
+}
+
+.light-text {
+    color: var(--light-color)
+}
+
+.Blockchain {
+    border-radius: 7px;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Block {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vw;
+    width: 90%;
+    margin: 1rem auto;
+    background-color: var(--dark-gray);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
+    transition: all 0.3s;
+    text-overflow: ellipsis;
+}
+
+.Block:hover {
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+@media screen and (max-width: 1280px) {
+    .Blockchain p {
+        font-size: 1rem;
+    }
+    .btn {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .Blockchain {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Blockchain p {
+        font-size: 0.5rem;
+    }
+    .Block {
+        height: 40vh;
+    }
+}

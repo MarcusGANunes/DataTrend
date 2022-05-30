@@ -1,0 +1,11 @@
+.text{
+    color: #426cb4;
+    text-decoration-line: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.text:hover{
+    color: #000000;
+}
