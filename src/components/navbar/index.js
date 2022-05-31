@@ -8,7 +8,7 @@ export default function NavbarComponent() {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand h1 mb-0" href="/">
-            <img src="logo2.png" alt="" width="178.3" height="56.55" />
+            <img src="DataTrend.png" alt="" width='250'/>
           </a>
           <button
             class="navbar-toggler"
