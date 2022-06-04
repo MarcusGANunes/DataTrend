@@ -44,11 +44,21 @@ export default function NavbarComponent() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/aboutus">
-                <span className="text">About Us</span>
+                <a class="nav-link" href="/plataforma">
+                <span className="text">A Plataforma</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sobre-nos">
+                <span className="text">Sobre Nós</span>
                 </a>
               </li>
             </ul>
+            <div>
+              <a class="nav-link" href="#">
+                <span className="loginText">LOGIN</span>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
