@@ -13,6 +13,7 @@ import Learning from "./pages/learning";
 import Plataforma from "./pages/plataforma";
 import Login from "./pages/login";
 import Resumo from "./pages/resumo";
+import EditarPortfolio from "./pages/editar-portfolio";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/plataforma" element={<Plataforma />} />
             <Route path="/login" element={<Login />} />
             <Route path="/resumo" element={<Resumo />} />
+            <Route path="/editar-portfolio" element={<EditarPortfolio />} />
           </Routes>
           <FooterComponent />
         </div>
