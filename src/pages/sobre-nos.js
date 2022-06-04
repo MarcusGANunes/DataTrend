@@ -6,7 +6,7 @@ import Card_3 from "../components/card/card3";
 
 export default function AboutUs() {
   return (
-    <div className="background">
+    <div>
       <div className="content">
         <div className="title">
           <h1>About Us</h1>

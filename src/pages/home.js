@@ -3,13 +3,21 @@ import "../styles/home.modules.css";
 
 export default function Home() {
   return (
-    <section className="welcome">
-      <div className="background">
-        <div className="headline">
-          <h1>Decida de onde comprar <br></br>sua energia</h1>
-          <p>Participe do Crowdfunding</p>
+    <div className='home'>
+      <section className="welcome">
+        <div className="background">
+          <div className="headline">
+            <h1>Decida de onde comprar <br></br>sua energia</h1>
+            <p>Participe do Crowdfunding</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className='partners'>
+          <div className="headline">
+            <h1>Nossos Parceiros</h1>
+            <p>#mostrar database</p>
+          </div>
+      </section>
+    </div>
   );
 }
