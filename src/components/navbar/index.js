@@ -55,7 +55,7 @@ export default function NavbarComponent() {
               </li>
             </ul>
             <div>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="login">
                 <span className="loginText">LOGIN</span>
               </a>
             </div>
