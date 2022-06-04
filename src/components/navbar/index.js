@@ -29,21 +29,6 @@ export default function NavbarComponent() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/blockchains">
-                <span className="text">Blockchains</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/nfts">
-                <span className="text">NFTs</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/smart-contracts">
-                <span className="text">Smart Contracts</span>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="/plataforma">
                 <span className="text">A Plataforma</span>
                 </a>
