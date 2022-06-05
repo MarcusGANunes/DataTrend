@@ -1,39 +1,91 @@
-import React from 'react';
-import '../styles/nfts.modules.css'
+import React from "react";
+import "../styles/plataforma.modules.css";
 
-export default function NFTs() {
+export default function Plataforma() {
   return (
-    <div className='NFTs'>
+    <div className="plataforma">
       <div className="title">
-        <h1>NFTs</h1>
+        <h1>A Plataforma</h1>
       </div>
       <div className="texts">
-        <p>NFT stands for Non-Fungible Token, so what it means is
-          that NFTs are digital tokens for Non-Fungibles itens
-          (that can really by physicall itens, it doesn't stands
-          for just digital itens), and Non-Fungibles itens can't be replaced, for example an piece of art, or
-          a limited edition card. On the other hand, Fundible itens are itens that
-          can be replaced, like 10 dolar bill, that are totally
-          replaceable by other 10 dolar bill.</p>
         <p>
-          NFTs can represent ownership over digital or physical
-          assets. The NFT is the token represented by a number
-          (specically uint256) that is, in laymans term, an
-          access key to the record of informations on the
-          blockchain about the lifecycle of an item. These informations
-          may contain digital files, who created the item, who
-          linked to the blockchain and informations of transactions,
-          like who bought and who has owned the item
-          through out the history and the rest of the "standard"
-          information of a block into a blockchain.</p>
-        <p>
-          As all the changes about Itens value and ownership
-          are make publicly and as there are so
-          many computers working on validating them,
-          it makes really difficult to hack anything.
+          A conecta é uma plataforma que dá acesso as pessoas físicas ao mercado
+          livre de energia, ou ambiente de contratação livre, além disso também
+          fazemos financiamento em grupo para projetos de geração distribuída de
+          energia solar trazendo a possibilidade dos consumidores se tornarem
+          produtores de parte da sua energia.
         </p>
-        <p>In short, if you have a NFT, you have a token that ensures that
-          you are, certainly, the owner of an item.</p>
+        <p>
+          Conectamos a pessoa física a mercados que antes estavam restritos as
+          grandes empresas, trazendo as ferramentas necessárias para guiar os
+          consumidores neste novo mercado, calculando o consumo e a conta de
+          energia.{" "}
+        </p>
+        <p>
+          Com isso fazendo com que o consumidor se torne o protagonista em um
+          futuro mais sustentável e conectado.
+        </p>
+      </div>
+      <div className="subtitle">
+        <h2>Comercializadoras</h2>
+      </div>
+      <div className="grid-container">
+        <div className="infoTexts">
+          <p>
+            No mercado livre, ou ambiente de contratação livre o Consumidor pode
+            negociar através de uma comercializadora diretamente com a geradora,
+            obtendo assim uma energia mais barata e que se adequa as suas
+            necessidades e preferências.
+          </p>
+          <p>Você vai pagar duas contas de energia:</p>
+          <ul>
+            <li>
+              Uma para a geradora de quem está sendo contratada a energia.
+            </li>
+            <li>
+              Outra para a distribuidora que leva a energia que foi contratada
+              até sua residência.
+            </li>
+          </ul>
+          <p>
+            A energia se torna mais barata porque as negociações são feitas em
+            um ambiente de mercado, no qual consumidor tem o poder de escolher
+            onde comprar a energia para que se adeque as suas necessidades.
+          </p>
+          <p>
+            Como você agora tem o poder de escolha pode ajudar a tornar a matriz
+            energética do país mais sustentável montando sua própria carteira de
+            energia e calculando seu consumo, tudo pelo nosso app.
+          </p>
+        </div>
+        <img className="image" src="figuras-de-lgg1.png"></img>
+      </div>
+      <div className="subtitle">
+        <h2>Crowdfunding</h2>
+      </div>
+      <div className="grid-container">
+        <div className="infoTexts">
+          <p>
+            Além de escolher os comercializadores de energia no nosso site, você
+            pode se tornar um investidor em uma rede solar de geração
+            distribuída.
+          </p>
+          <p>
+            Basta colocar a sua localização e selecionar o projeto que gostaria
+            de investir dentro do seu estado para se tornar um investidor em
+            energia solar e produzir uma parte da energia que você consome.
+          </p>
+          <p>
+            Você comprará uma participação em um projeto financiado em grupo, ou
+            seja, Crowdfunding. No nosso site você encontra todas as informações
+            relevantes para o investimento como fluxo de caixa e previsão de
+            rentabilidade do projeto, além de montar seu portfólio.
+          </p>
+          <p>
+            Venha investir conosco em um futuro mais sustentável e conectado.
+          </p>
+        </div>
+        <img className="image" src="figuras-de-lgg1.png"></img>
       </div>
     </div>
   );
