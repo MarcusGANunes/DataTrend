@@ -1,0 +1,19 @@
+a:link, a:visited,  a:hover, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #328CC1;
+    margin: 0rem;
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: large;
+}
+
+.button:hover {
+    background-color: #426cb4;
+}

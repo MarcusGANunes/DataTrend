@@ -1,0 +1,23 @@
+.text{
+    color: #22a1e2;
+    text-decoration-line: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.loginText{
+    color: #7ed957;
+    text-decoration-line: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.loginText:hover{
+    color: #22a1e2;
+}
+
+.text:hover{
+    color: #000000;
+}
