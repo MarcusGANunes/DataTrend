@@ -8,7 +8,10 @@
 }
 
 .filter {
+    font-size: 1.5rem;
+    line-height: 2rem;
     display: flex;
+    align-items: center;
     margin-bottom: 1rem;
 }
 

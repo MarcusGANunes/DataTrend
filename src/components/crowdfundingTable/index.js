@@ -225,22 +225,10 @@ export default function CrowdfundingTable() {
     setTraders(newTraders);
   }
 
-  function filter() {
-    if (search !== '') {
-      setTraders(empresas.filter(x => {
-        return x.city.toLowerCase().includes(search.toLowerCase())
-      }))
-      isFiltered(true)
-    } else {
-      setTraders(empresas)
-      isFiltered(false)
-    }
-  }
-
   return (
     <>
       <div className="filter">
-        <p>Filtre pela cidade:</p>
+        Filtre pela cidade:
         <input
           className="input"
           placeholder="Busca por cidade"
