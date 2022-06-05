@@ -213,224 +213,10 @@ export default function CrowdfundingTable() {
       price: "R$20,00",
     },
   ];
-  // useEffect(() => {
 
   const [traders, setTraders] = useState(empresas);
   const [search, setSearch] = useState('')
   const [filtered, isFiltered] = useState(false)
-
-  //   const empresas = [
-  //     {
-  //       id: 1,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "cidade",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 2,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 3,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 4,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 5,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 6,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 7,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 8,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 9,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 10,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 11,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 12,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 13,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 14,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 15,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 16,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 17,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 18,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 19,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 20,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 21,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 22,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //     {
-  //       id: 23,
-  //       CNPJ: "XXXXXX",
-  //       name: "name",
-  //       city: "city",
-  //       show: true,
-  //       site: "www.example.com",
-  //       price: "R$20,00",
-  //     },
-  //   ];
-  //   setTraders(empresas);
-  // }, []);
-
 
   function addRemoveBusiness(newElement) {
     const newTraders = traders.map(x => {
@@ -441,7 +227,9 @@ export default function CrowdfundingTable() {
 
   function filter() {
     if (search !== '') {
-      setTraders(empresas.filter(x => x.city === search))
+      setTraders(empresas.filter(x => {
+        return x.city.toLowerCase().includes(search.toLowerCase())
+      }))
       isFiltered(true)
     } else {
       setTraders(empresas)
@@ -461,10 +249,6 @@ export default function CrowdfundingTable() {
             setSearch(e.target.value)
           }}
         />
-        <div
-          className="button"
-          onClick={filter}
-        >Filtrar</div>
       </div>
       <table class="table table-striped table-hover align-middle">
         <thead>
@@ -479,7 +263,9 @@ export default function CrowdfundingTable() {
           </tr>
         </thead>
         <tbody key={filtered ? "filter" : ""}>
-          {traders.map((x) => {
+          {traders
+          .filter(x => x.city.toLowerCase().includes(search.toLowerCase()))
+          .map((x) => {
             return (
               <>
                 {x.show &&
