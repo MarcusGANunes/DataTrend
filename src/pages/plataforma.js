@@ -3,7 +3,8 @@ import "../styles/plataforma.modules.css";
 
 export default function Plataforma() {
   return (
-    <div className="plataforma">
+    <div className="background-plataforma">
+      <div className="plataforma">
       <div className="title">
         <h1>A Plataforma</h1>
       </div>
@@ -87,6 +88,7 @@ export default function Plataforma() {
         </div>
         <img className="image" src="figuras-de-lgg1.png"></img>
       </div>
+    </div>
     </div>
   );
 }

@@ -4,20 +4,20 @@ import "../styles/aboutus.modules.css";
 export default function Plataforma() {
   return (
     <div className="sobre-nos">
-      <div className="subtitle">
-        <h2>Conheça a equipe da connecta</h2>
+      <div className="aboutTitle">
+        <h1>Conheça a equipe da connecta</h1>
       </div>
+      <br />
+      <br />
       <div>
-      <div className="horizontalContainer">
-        <img className="containerElement1" src="card1.png" />
-        <img className="containerElement2" src="card1.png" />
-        <img className="containerElement3" src="card1.png" />
-      </div>
-      </div>
-      <div>
-        <div className="horizontalContainer2">
-          <img className="containerElement1" src="card1.png" />
-          <img className="containerElement2" src="card1.png" />
+        <div className="container1">
+          <img src="card1.png" width="30%"/>
+          <img src="card1.png" width="30%"/>
+          <img src="card1.png" width="30%"/>
+        </div>
+        <div className="container2">
+          <img src="card1.png" width="30%"/>
+          <img src="card1.png" width="30%"/>
         </div>
       </div>
     </div>

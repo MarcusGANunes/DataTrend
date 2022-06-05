@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-.background {
-    background-color: #cdcdcd;
+.background-plataforma{
+    background-color: #CDCACA;
 }
-
 
 .title {
     position: relative;
@@ -16,12 +15,12 @@
     flex-direction: column;
     justify-content: center;
     font-weight: bold;
-    color: #22a1e2;
+    color: #5ce1e6;
     font-size: x-large;
 }
 
 .subtitle {
-    color: #22a1e2;
+    color: #5ce1e6;
     margin-bottom: 2em;
 }
 

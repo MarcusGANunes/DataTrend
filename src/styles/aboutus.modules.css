@@ -9,19 +9,23 @@
 }
 
 
-.title {
+.aboutTitle {
     position: relative;
-    padding: 1rem 0 0 5rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-weight: bold;
-    color: #22a1e2;
+    color: #737373;
     font-size: x-large;
 }
 
+.aboutTitle h1{
+    color: #737373;
+}
+
 .subtitle {
-    color: #22a1e2;
+    color: #737373;
     margin-bottom: 2em;
 }
 
@@ -31,63 +35,31 @@
 }
 
 .texts span {
-    color: blue;
+    color: black;
 }
 
 .sobre-nos {
     width: 80vw;
     margin: 0 auto;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 
-.subtitle {
-    width: 100%;
-    color: #328CC1;
-    margin-bottom: 2em;
-}
-
-.horizontalContainer {
-    display: inline-grid;
-    align-content: center;
+.container {
+    display: inline-flex;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-bottom: 2em;
 }
 
-.horizontalContainer img{
+.container2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.sobre-nos div img{
     width: 30%;
-}
-
-.horizontalContainer2 img {
-    width: 30%
-}
-
-.containerElement1{
-    display: grid;
-    width: 100%;
-    gap: 20px 20px;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    border-radius: 10px;
-    vertical-align: middle;
-}
-.containerElement2{
-    display: grid;
-    width: 100%;
-    gap: 20px 20px;
-    justify-content: center;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    border-radius: 10px;
-    vertical-align: middle;
-}
-.containerElement3{
-    display: grid;
-    width: 100%;
-    gap: 20px 20px;
-    justify-content: center;
-    grid-column-start: 5;
-    grid-column-end: 6;
-    border-radius: 10px;
-    vertical-align: middle;
+    padding-left: 2em;
+    padding-bottom: 2em;
 }
