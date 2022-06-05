@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/nfts.modules.css'
+import '../styles/plataforma.modules.css'
 
 export default function NFTs() {
   return (
