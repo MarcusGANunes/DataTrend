@@ -21,8 +21,7 @@ export const options = {
   title: "Consumo Mensal",
   chartArea: { width: "80%" },
   bar: {
-      groupWidth: '100%',
-      width: 10000
+      groupWidth: '90%',
   },
   hAxis: {
     title: "Turno",
