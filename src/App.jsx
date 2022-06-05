@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
           <NavbarComponent />
           <RouteComponent/>
-          <FooterComponent />
+          <FooterComponent/>
       </BrowserRouter>
     </div>
   );
