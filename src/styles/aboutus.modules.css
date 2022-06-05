@@ -4,29 +4,33 @@
     box-sizing: border-box;
 }
 
-.background {
+.background-aboutus {
     background-color: #cdcdcd;
 }
 
 
 .aboutTitle {
     position: relative;
+    padding-top: 2em;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-weight: bold;
     color: #737373;
+    font-weight: bolder;
     font-size: x-large;
+    font-family: sans-serif;
 }
 
 .aboutTitle h1{
-    color: #737373;
+    color: black;
 }
 
-.subtitle {
+.aboutSubtitle {
     color: #737373;
     margin-bottom: 2em;
+    font-family: sans-serif;
 }
 
 .texts {
@@ -60,6 +64,7 @@
 
 .sobre-nos div img{
     width: 30%;
-    padding-left: 2em;
-    padding-bottom: 2em;
+    border-radius: 20px;
+    margin-right: 2em;
+    margin-bottom: 2em;
 }

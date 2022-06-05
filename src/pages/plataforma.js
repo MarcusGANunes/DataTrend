@@ -5,7 +5,7 @@ export default function Plataforma() {
   return (
     <div className="background-plataforma">
       <div className="plataforma">
-      <div className="title">
+      <div className="title-plataforma">
         <h1>A Plataforma</h1>
       </div>
       <div className="texts">
@@ -27,7 +27,7 @@ export default function Plataforma() {
           futuro mais sustentável e conectado.
         </p>
       </div>
-      <div className="subtitle">
+      <div className="subtitle-plataforma">
         <h2>Comercializadoras</h2>
       </div>
       <div className="grid-container">
@@ -59,9 +59,9 @@ export default function Plataforma() {
             energia e calculando seu consumo, tudo pelo nosso app.
           </p>
         </div>
-        <img className="image" src="figuras-de-lgg1.png"></img>
+        <img className="image" src="schema.jpeg"></img>
       </div>
-      <div className="subtitle">
+      <div className="subtitle-plataforma">
         <h2>Crowdfunding</h2>
       </div>
       <div className="grid-container">
@@ -86,7 +86,7 @@ export default function Plataforma() {
             Venha investir conosco em um futuro mais sustentável e conectado.
           </p>
         </div>
-        <img className="image" src="figuras-de-lgg1.png"></img>
+        <img className="image" src="crowdfunding.jpg"/>
       </div>
     </div>
     </div>
