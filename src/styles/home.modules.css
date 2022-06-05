@@ -47,6 +47,11 @@
 
 .partners {
   background-color: #1a7fb1;
-  height: 600px;
+  height: 1000px;
   width: 100%;
+}
+
+.partner-cards {
+  display: flex;
+  justify-content: space-around;
 }
