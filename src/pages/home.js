@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.modules.css";
+import PartnerCard from "../components/card/PartnerCard";
 
 export default function Home() {
   return (
@@ -12,11 +13,16 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='partners'>
-          <div className="headline">
-            <h1>Nossos Parceiros</h1>
-            <p>#mostrar database</p>
-          </div>
+      <section className="partners">
+        <div className="headline">
+          <h1>Nossos Parceiros</h1>
+          <p>#mostrar database</p>
+        </div>
+        <div className="partner-cards">
+          <PartnerCard />
+          <PartnerCard />
+          <PartnerCard />
+        </div>
       </section>
     </div>
   );
