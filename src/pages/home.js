@@ -12,12 +12,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='partners'>
-          <div className="headline">
-            <h1>Nossos Parceiros</h1>
-            <p>#mostrar database</p>
-          </div>
-      </section>
     </div>
   );
 }
