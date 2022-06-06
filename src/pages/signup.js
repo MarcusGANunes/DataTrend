@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 import '../styles/login.modules.css'
 
-const LoginArea = () => {
+const SignUp = () => {
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -11,7 +11,7 @@ const LoginArea = () => {
     return (
         <div className="login">
             <div className="login-area">
-                <span className="header">Área de login</span>
+                <span className="header">Crie sua conta</span>
                 <form action="">
                     <input
                         type="username"
@@ -29,18 +29,25 @@ const LoginArea = () => {
                             setPassword(e.target.value)
                         }}
                     />
+                    <input
+                        type="password"
+                        placeholder="Confirme sua senha"
+                        value={password}
+                        onChange={e => {
+                            setPassword(e.target.value)
+                        }}
+                    />
                 </form>
                 <div
                     className="btn"
                 >
-                    ENTRAR
+                    CADASTRAR
                 </div>
-                <NavLink to='/signup'>Criar uma conta</NavLink>
-                <NavLink to='/recover'>Esqueci minha senha</NavLink>
+                <NavLink to='/login'>Já possuo cadastro</NavLink>
 
             </div>
         </div>
     )
 }
 
-export default LoginArea
+export default SignUp

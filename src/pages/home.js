@@ -13,17 +13,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="partners">
-        <div className="headline">
-          <h1>Nossos Parceiros</h1>
-          <p>#mostrar database</p>
-        </div>
-        <div className="partner-cards">
-          <PartnerCard />
-          <PartnerCard />
-          <PartnerCard />
-        </div>
-      </section>
     </div>
   );
 }

@@ -1,0 +1,34 @@
+#button-unselected{
+    color: red;
+    font-weight: bolder;
+}
+#button-selected{
+    color: green;
+    font-weight: bolder;
+}
+
+.filter {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.filter p {
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.input {
+    margin-left: 1rem;
+}
+
+.button {
+    margin-left: 1rem;
+}
+
+.button:hover {
+    cursor: pointer;
+}
