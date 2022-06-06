@@ -7,7 +7,27 @@ import PieChartDaily from '../components/pieChartDaily/index.js';
 import Histogram from '../components/histogram/index.js';
 
 export default function NFTs() {
-  const [portfolio, setPortfolio] = useState([ {id: 3, name: 'nome', city: 'cidade'} ]);
+  const [portfolio, setPortfolio] = useState([ {
+    cnpj: 36583766000193,
+    name: "2W COMERCIALIZADORA VAREJISTA DE ENERGIA S.A.",
+    date: 44440,
+    price: 62.7114434280476,
+    city: "SÃO PAULO"
+   },
+   {
+    cnpj: 29000095000125,
+    name: "TEMPO ENERGIA S.A.",
+    date: 44501,
+    price: 79.21806047216984,
+    city: "SÃO PAULO"
+   },
+   {
+    cnpj: 29754467000109,
+    name: "CEL COMERCIALIZADORA DE ENERGIA - EIRELI",
+    date: 44531,
+    price: 73.72282854090759,
+    city: "GOIANIA"
+   } ]);
 
   return (
     <div className='page'>
@@ -19,14 +39,10 @@ export default function NFTs() {
             <ResumeCard/>
         </div>
         <br/>
-        <div>
+        <div className='containerResumo'>
             <PieChartWeekly/>
-        </div>
-        <br/>
-        <div>
             <PieChartDaily/>
         </div>
-        <br/>
         <div>
             <Histogram/>
         </div>
