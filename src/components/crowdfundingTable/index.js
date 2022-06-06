@@ -58,19 +58,11 @@ export default function CrowdfundingTable() {
                       <th scope="row" id={x.id}>
                         {x.id}
                       </th>
-<<<<<<< HEAD
-                      <td>{x.cnpj}</td>
-                      <td>{x.name}</td>
-                      <td>{x.city}</td>
-                      <td>R${x.price.toFixed(2)}</td>
-                      <td><span id={x.chosen === true ? 'button-selected' : 'button-unselected'} onClick={() => { addRemoveBusiness(x) }} type="button">Adicionar/Remover</span></td>
-=======
                       <td id="texts">{x.cnpj}</td>
                       <td id="texts">{x.name}</td>
                       <td id="texts">{x.city}</td>
                       <td id="texts">R$<input type="text" placeholder="Insira o valor"></input></td>
                       <td id="texts"><span id={x.chosen === true ? 'button-selected' : 'button-unselected'} onClick={() => { addRemoveBusiness(x) }} type="button">Adicionar/Remover</span></td>
->>>>>>> Marcus
                     </tr>}
                 </>
               );
@@ -79,8 +71,4 @@ export default function CrowdfundingTable() {
       </table>
     </>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> Marcus

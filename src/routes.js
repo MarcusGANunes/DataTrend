@@ -5,13 +5,7 @@ import Plataforma from './pages/plataforma'
 import Login from './pages/login'
 import EditarPortfolio from './pages/editar-portfolio'
 import Resumo from './pages/resumo'
-<<<<<<< HEAD
-import Crowdfunding from './pages/crowdfunding'
-import SignUp from './pages/signup'
-import RecoverPage from './pages/recoverpage'
-=======
 import Crowdfunding from './pages/crowdfunding';
->>>>>>> Marcus
 
 function RouteComponent() {
     return (
@@ -23,11 +17,6 @@ function RouteComponent() {
             <Route path="/resumo" element={<Resumo />} />
             <Route path="/editar-portfolio" element={<EditarPortfolio />} />
             <Route path="/crowdfunding" element={<Crowdfunding/>}/>
-<<<<<<< HEAD
-            <Route path='/signup' element={<SignUp/>}/>
-            <Route path='/recover' element={<RecoverPage/>}/>
-=======
->>>>>>> Marcus
         </Routes>
     )
 }

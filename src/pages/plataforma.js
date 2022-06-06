@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import React from 'react';
-import "../styles/login.modules.css";
-=======
 import React from "react";
 import "../styles/plataforma.modules.css";
->>>>>>> Marcus
 
 export default function Plataforma() {
   return (

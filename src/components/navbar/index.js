@@ -38,6 +38,21 @@ export default function NavbarComponent() {
                 <span className="text">Sobre Nós</span>
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/resumo">
+                <span className="text">Resumo</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/editar-portfolio">
+                <span className="text">Editar Portfolio</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/crowdfunding">
+                <span className="text">Crowdfunding</span>
+                </a>
+              </li>
             </ul>
             <div>
               <a class="nav-link" href="login">

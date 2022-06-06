@@ -43,8 +43,4 @@ const LoginArea = () => {
     )
 }
 
-<<<<<<< HEAD
 export default LoginArea
-=======
-export default LoginArea
->>>>>>> Marcus
