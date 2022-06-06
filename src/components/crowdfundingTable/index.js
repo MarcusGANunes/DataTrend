@@ -43,7 +43,7 @@ export default function CrowdfundingTable() {
             <th scope="col">CNPJ</th>
             <th scope="col">Razão Social</th>
             <th scope="col">Cidade</th>
-            <th scope="col">Preço (MWh)</th>
+            <th scope="col">Valor</th>
             <th scope="col"></th>
           </tr>
         </thead>
