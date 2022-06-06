@@ -32,3 +32,8 @@
 .button:hover {
     cursor: pointer;
 }
+
+#texts{
+    font-weight: 500;
+    font-family: sans-serif;
+  }

@@ -59,7 +59,7 @@ export default function Plataforma() {
             energia e calculando seu consumo, tudo pelo nosso app.
           </p>
         </div>
-        <img className="image" src="schema.jpeg"></img>
+        <img className="image" alt="" src="schema.jpeg"></img>
       </div>
       <div className="subtitle-plataforma">
         <h2>Crowdfunding</h2>
@@ -86,7 +86,7 @@ export default function Plataforma() {
             Venha investir conosco em um futuro mais sustentável e conectado.
           </p>
         </div>
-        <img className="image" src="crowdfunding.jpg"/>
+        <img className="image" alt="" src="crowdfunding.jpg"/>
       </div>
     </div>
     </div>
