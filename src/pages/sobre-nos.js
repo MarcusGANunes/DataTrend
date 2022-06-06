@@ -1,30 +1,24 @@
 import React from "react";
 import "../styles/aboutus.modules.css";
-import Card_1 from "../components/card/card1";
-import Card_2 from "../components/card/card2";
-import Card_3 from "../components/card/card3";
 
-export default function AboutUs() {
+export default function Plataforma() {
   return (
-    <div>
-      <div className="content">
-        <div className="title">
-          <h1>About Us</h1>
+    <div className="background-aboutus">
+      <div className="sobre-nos">
+        <div className="aboutTitle">
+          <h1>Conheça a equipe da connecta</h1>
         </div>
-        <div className="texts">
-          <div className="subtitle">
-            <h2>Our Goal</h2>
+        <br />
+        <br />
+        <div>
+          <div className="container1">
+            <img src="card1.png" alt="" width="30%" />
+            <img src="card2.png" alt="" width="30%" />
+            <img src="card3.png" alt="" width="30%" />
           </div>
-          <p>
-            We are 3 brazilian College Students willing to spread knowledge about Web 3.0, the next tecnhological leap in Internet's history.
-          </p>
-          <div className="subtitle">
-            <h2>Meet the Team</h2>
-          </div>
-          <div className="horizontalContainer">
-            <Card_1 />
-            <Card_2 />
-            <Card_3 />
+          <div className="container2">
+            <img src="card4.png" alt="" width="30%" />
+            <img src="card5.png" alt="" width="30%" />
           </div>
         </div>
       </div>

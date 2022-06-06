@@ -6,3 +6,8 @@
     color: green;
     font-weight: bolder;
 }
+
+#texts{
+    font-weight: 500;
+    font-family: sans-serif;
+  }

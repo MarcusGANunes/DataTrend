@@ -18,4 +18,8 @@ function Crowdfunding() {
     )
 }
 
+<<<<<<< HEAD
 export default Crowdfunding
+=======
+export default Crowdfunding;
+>>>>>>> Marcus

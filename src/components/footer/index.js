@@ -21,7 +21,7 @@ export default function FooterComponent() {
           </li>
         </ul>
         <p className="copy_right">
-          DataTrend<span>&copy; 2022</span>
+          <span>connecta&copy; 2022</span>
         </p>
       </div>
     </footer>
