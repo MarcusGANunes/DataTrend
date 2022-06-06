@@ -6,6 +6,8 @@ import Login from './pages/login'
 import EditarPortfolio from './pages/editar-portfolio'
 import Resumo from './pages/resumo'
 import Crowdfunding from './pages/crowdfunding'
+import SignUp from './pages/signup'
+import RecoverPage from './pages/recoverpage'
 
 function RouteComponent() {
     return (
@@ -17,6 +19,8 @@ function RouteComponent() {
             <Route path="/resumo" element={<Resumo />} />
             <Route path="/editar-portfolio" element={<EditarPortfolio />} />
             <Route path="/crowdfunding" element={<Crowdfunding/>}/>
+            <Route path='/signup' element={<SignUp/>}/>
+            <Route path='/recover' element={<RecoverPage/>}/>
         </Routes>
     )
 }
